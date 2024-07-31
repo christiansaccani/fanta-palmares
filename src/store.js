@@ -9,7 +9,7 @@ export const store = reactive({
           coppe: 2,
           sec: 3,
           ter: 2,
-        //   stagioni: 11
+          stagioni: 11
         },
         {
           nome: 'Bertoldi Matteo',
@@ -17,7 +17,7 @@ export const store = reactive({
           coppe: 0,
           sec: 2,
           ter: 0,
-        //   stagioni: 9
+          stagioni: 9
         },
         {
           nome: 'Maramotti Riccardo',
@@ -25,7 +25,7 @@ export const store = reactive({
           coppe: 4,
           sec: 0,
           ter: 2,
-        //   stagioni: 11
+          stagioni: 11
         },
         {
           nome: 'Viani Riccardo',
@@ -33,7 +33,7 @@ export const store = reactive({
           coppe: 0,
           sec: 2,
           ter: 1,
-        //   stagioni: 9
+          stagioni: 9
         },
         {
           nome: 'Paolo',
@@ -41,7 +41,7 @@ export const store = reactive({
           coppe: 0,
           sec: 1,
           ter: 1,
-        //   stagioni: 4
+          stagioni: 4
         },
         {
         nome: 'Ferretti & Lusvarghi',
@@ -49,15 +49,15 @@ export const store = reactive({
         coppe: 1,
         sec: 0,
         ter: 1,
-        // stagioni: 4
+        stagioni: 4
         },
         {
-        nome: 'Panciroli',
+        nome: 'Panciroli Marco',
         campionati: 1,
         coppe: 0,
         sec: 0,
         ter: 0,
-        // stagioni: 8
+        stagioni: 8
         },
         {
         nome: 'Rozzi Davide',
@@ -65,7 +65,7 @@ export const store = reactive({
         coppe: 1,
         sec: 0,
         ter: 0,
-        // stagioni: 8
+        stagioni: 8
         },
         {
         nome: 'Viani Tommaso',
@@ -73,7 +73,7 @@ export const store = reactive({
         coppe: 0,
         sec: 0,
         ter: 1,
-        // stagioni: 4
+        stagioni: 4
         },
         {
         nome: 'Saccani Christian',
@@ -81,7 +81,7 @@ export const store = reactive({
         coppe: 2,
         sec: 1,
         ter: 2,
-        // stagioni: 7
+        stagioni: 7
         },
         {
         nome: 'Aleotti Marco',
@@ -89,7 +89,7 @@ export const store = reactive({
         coppe: 1,
         sec: 1,
         ter: 0,
-        // stagioni: 8
+        stagioni: 8
         },
         {
         nome: 'Benni Marco',
@@ -97,7 +97,7 @@ export const store = reactive({
         coppe: 0,
         sec: 0,
         ter: 1,
-        // stagioni: 5
+        stagioni: 5
         }
     ]
 });
