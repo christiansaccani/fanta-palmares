@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 import {store} from './store.js';
 
-import AppNav from './components/AppNav.vue';
+import AppContainer from './components/AppContainer.vue';
 
 export default {
 
@@ -15,7 +15,7 @@ export default {
   },
 
   components: {
-    AppNav,
+    AppContainer,
   },
 }
 
@@ -24,8 +24,9 @@ export default {
 <template>
   
   <body>
-    <AppNav></AppNav>
-
+    <AppContainer>
+      
+    </AppContainer>
   </body>
   
 </template>
@@ -33,23 +34,12 @@ export default {
 <style lang="scss" scoped>
 
 body {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center !important;
-
- 
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
 }
 
 </style>
-
-<!-- 
-
-Cose da fare:
- 
-- Inserisci la sezione dedicata ai progetti
-- Inserisci il toggle per la lingua
-- Inserisci le traduzione
-- Decidi i colori da usare
-
--->
