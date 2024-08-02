@@ -7,7 +7,7 @@ import {store} from './store.js';
 import AppContainer from './components/AppContainer.vue';
 
 export default {
-
+  name: 'App',
   data() {
     return {
       store,
@@ -22,13 +22,10 @@ export default {
 </script>
 
 <template>
-  
   <body>
     <AppContainer>
-      
     </AppContainer>
   </body>
-  
 </template>
 
 <style lang="scss" scoped>
@@ -39,7 +36,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: linear-gradient(to bottom, #eceff1 0%, #72a800 100%);
 }
 
 </style>
